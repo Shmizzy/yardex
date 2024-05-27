@@ -56,7 +56,9 @@ Follow these steps to set up the Yardex app locally:
     Create a `.env` file in the root directory and add the following variables:
 
     ```env
-    REACT_APP_API_URL=http://localhost:5000
+    REACT_APP_API_URL=<BACKEND_URL>
+    VITE_GOOGLE_CLOUD_MAP_ID=<YOURAPIKEY>
+    VITE_GOOGLE_CLOUD_API_KEY=<YOURAPIKEY>
     ```
 
 4. **Start the development server:**
