@@ -1,0 +1,39 @@
+main{
+    position: relative;
+    height: 100dvh;
+    margin: 0;
+}
+.return{
+    background-color: lightcoral;
+}
+.mapContainer{
+    margin: 0;
+    width: 100dvw;
+    height: 100dvh;
+}
+.serviceCard{
+    position: absolute;
+    height: max-content;
+    width: 60dvw;
+    top: 60%;
+    left: 0;
+    right: 0;
+    padding: 14px;
+    margin: auto;
+    background-color: white;
+    border-radius: 14px;   
+}
+.backIcon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 25px;
+    color: black;
+    background-color: rgba(139, 139, 139,.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
